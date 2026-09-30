@@ -17,7 +17,7 @@ def test_over_limit_false():
 
 def test_type_of_string():
     name = "ISM3232"
-    assert type(name) is str
+    assert type(name) == str
 
 
 def test_type_conversation():
